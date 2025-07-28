@@ -1,8 +1,17 @@
-#duration=[1/8]*n音符演奏时长
-#ineval=[1/4]*n间隔时长
-#bpm=n 演奏速度
+"""
+Copyright (c) 2025 rice-1234
+Licensed under the MIT License
+"""
+"""
+功能实现：
+duration=[1/8]*n   音符演奏时长
+ineval=[1/4]*n     间隔时长
+bpm=n              演奏速度
+"""
+
 from musicpy import *
 import time
+
 a=int(input())
 so_=('G',a-1)
 la_=('A',a-1)
